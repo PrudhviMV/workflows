@@ -21,4 +21,4 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v6
     - name: list files
-      uses: ls -lrth
+      run: ls -lrth
